@@ -22,7 +22,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     SOURCE_TXT = """<b>ɴᴏᴛᴇ:
 - ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
-- ꜱᴏᴜʀᴄᴇ - <a href="https://t.me/xax_ha_ha_l">𝔻𝕆ℕ𝕋</a>
+- ꜱᴏᴜʀᴄᴇ - <a href="https://t.me/Abhimanyu_Gupta_26">𝙰𝚋𝚑𝚒𝚖𝚊𝚗𝚢𝚞 𝙶𝚞𝚙𝚝𝚊</a>
 Dᴇᴠᴇʟᴏᴘᴇʀ:
 - <a href="https://t.me/Abhimanyu_Gupta_26">𝙰𝚋𝚑𝚒𝚖𝚊𝚗𝚢𝚞 𝙶𝚞𝚙𝚝𝚊</a></b>"""
 
@@ -108,6 +108,11 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 ★ Tᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code>
 ★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{}</code>
 ★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{}</code></b>"""
+    
+    OGGY_TXT = """<b>H
+    hii
+    heloo
+    <b>"""
 
     LOG_TEXT_G = """#NewGroup
 Gʀᴏᴜᴘ = {}(<code>{}</code>)

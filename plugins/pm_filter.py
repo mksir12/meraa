@@ -1231,7 +1231,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 🙈', callback_data='source')
         ],[
             InlineKeyboardButton('Hᴏᴍᴇ 🏡', callback_data='start'),
-            InlineKeyboardButton('Sᴛᴀᴛᴜs 📶', callback_data='stats')
+            InlineKeyboardButton('Sᴛᴀᴛᴜs 📶', callback_data='oggy')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -1242,6 +1242,34 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text=script.ABOUT_TXT.format(temp.B_NAME),
             reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
+        elif query.data == "oggy":
+
+        buttons = [[
+
+            InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='about')
+
+        ]]
+
+        reply_markup = InlineKeyboardMarkup(buttons)
+
+        await client.edit_message_media(
+
+            query.message.chat.id, 
+
+            query.message.id, 
+
+            InputMediaPhoto(random.choice(PICS))
+
+        )
+
+        await query.message.edit_text(
+
+            text=script.OGGY_TXT,
+
+            reply_markup=reply_markup,
+
             parse_mode=enums.ParseMode.HTML
         )
     elif query.data == "source":
